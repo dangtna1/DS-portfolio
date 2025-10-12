@@ -4,7 +4,7 @@ export default {
   "phone": "(+44)7561352884",
   "linkedin": "https://www.linkedin.com/in/dang-vu-5a441a240/",
   "github": "https://github.com/dangtna1",
-  "profile": "Graduate Data Scientist (MSc Distinction). I build ML models, pipelines and dashboards to turn data into decisions. My work spans computer vision, NLP, and cloud-based analytics.",
+  "profile": "Data Scientist specializing in Machine Learning and Deep Learning, with industrial experience building end-to-end AI solutions in Computer Vision and NLP. Proficient in Python, PyTorch, Scikit-learn, Pandas, OpenCV, NLTK, and data visualization with Power BI. Experienced in data wrangling, predictive modeling, and deploying ML pipelines on cloud platforms to improve operational efficiency, optimise resource allocation, enhance decision-making, and unlock potential revenues for enterprises. I love working with numbers - staring at massive datasets, uncovering hidden patterns, building statistical models, and turning chaos into clarity. My models have automated processes, reduced manually workloads, and extracted insights that grow the business metrics. Strong academic foundation: Master's degree with Distinction in Data Science and Bachelor's degree with First-Class Honours in Computer Engineering.",
   "skills": [
     {
       "name": "Python",

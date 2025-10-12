@@ -5,20 +5,17 @@ import Skills from './components/Skills'
 import Projects from './components/Projects'
 import Experience from './components/Experience'
 import Footer from './components/Footer'
+import About from './components/About'
 import data from './data'
 
-export default function App(){
+export default function App() {
   return (
     <div>
       <Nav />
       <main className="pt-24">
         <Hero />
-        <section id="about" className="py-20">
-          <div className="container">
-            <h2 className="text-2xl font-semibold text-ocean-300 mb-6">About</h2>
-            <div className="card"><p className="text-slate-300">{data.profile}</p></div>
-          </div>
-        </section>
+
+        <About />
 
         <section id="skills" className="py-20">
           <div className="container">
@@ -45,7 +42,7 @@ export default function App(){
           <div className="container">
             <h2 className="text-2xl font-semibold text-ocean-300 mb-6">Education</h2>
             <div className="grid md:grid-cols-2 gap-4">
-              {data.education.map((ed,i) => (
+              {data.education.map((ed, i) => (
                 <div key={i} className="card">
                   <h4 className="font-semibold">{ed.degree}</h4>
                   <p className="text-sm text-slate-400">{ed.org} · {ed.period}</p>
