@@ -1,4 +1,4 @@
-# Dang Vu — Portfolio (v3) — Cinematic
+# Dang Vu — Portfolio
 
 ## Quick start
 
@@ -26,7 +26,3 @@
      npm run build
      npm run deploy
      ```
-
-Notes:
-- Placeholder avatar used; replace with your photo in src/components/Hero.jsx or public folder.
-- The contact form is Netlify-ready (uses Netlify forms). If you deploy elsewhere, adjust the backend.
