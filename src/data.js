@@ -8,7 +8,7 @@ export default {
   "skills": [
     {
       "name": "Python",
-      "level": "Expert",
+      "level": "Advanced",
       "icon": "FaPython"
     },
     {
