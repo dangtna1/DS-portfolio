@@ -1,9 +1,9 @@
 {
-  "name": "dang-vu-portfolio-v3",
+  "name": "dang-vu-portfolio",
   "version": "1.0.0",
   "private": true,
   "type": "module",
-  "homepage": "https://<your-username>.github.io/<repo-name>",
+  "homepage": "https://dangtna1.github.io/DS-portfolio",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
