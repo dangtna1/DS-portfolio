@@ -14,9 +14,8 @@ export default function Nav() {
 
   return (
     <nav
-      className={`fixed w-full z-50 top-0 transition-all ${
-        scrolled ? 'bg-slate-900/70 backdrop-blur-xl shadow-md' : 'bg-transparent'
-      }`}
+      className={`fixed w-full z-50 top-0 transition-all ${scrolled ? 'bg-slate-900/70 backdrop-blur-xl shadow-md' : 'bg-transparent'
+        }`}
     >
       <div className="container flex items-center justify-between py-4">
         {/* Logo */}
@@ -40,7 +39,7 @@ export default function Nav() {
           ))}
 
           <a
-            href="/Dang-Vu-Data-Scientist.pdf"
+            href={`${import.meta.env.BASE_URL}Dang-Vu-Data-Scientist.pdf`}
             download
             className="ml-4 px-4 py-2 bg-gradient-to-r from-ocean-400 to-[#9b6bff] rounded-lg text-slate-900 font-medium flex items-center gap-2 shadow-lg hover:scale-105 transition-transform"
           >

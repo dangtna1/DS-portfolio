@@ -49,27 +49,40 @@ export default {
   ],
   "projects": [
     {
-      "title": "Human Action Recognition",
-      "period": "Jun 2025 \u2013 Sep 2025",
-      "desc": "Multi-view action recognition using fusion strategies, improved accuracy on benchmarks.",
-      "github": "https://github.com/dangtna1/THUMOS-14_TAD",
-      "tech": [
-        "PyTorch",
-        "Python",
-        "Multi-view"
-      ]
+      "title": "Framingham Heart Disease Risk Prediction",
+      "period": "Feb 2025 – Apr 2025",
+      "desc": "Developed a full ML pipeline to predict 10-year coronary heart disease (CHD) risk using the Framingham dataset. Implemented preprocessing, SMOTE for imbalance handling, and Random Forest classification with grid search. Achieved 79% accuracy and deployed a Streamlit app for interactive predictions.",
+      "github": "https://github.com/dangtna1/Framingham-CHD",
+      "demo": "https://heart-disease-risk-p17o.onrender.com/",
+      "tech": ["Python", "scikit-learn", "SMOTE", "Streamlit", "Random Forest"],
+      "media": "CHD.mov",
+      "results": {
+        "accuracy": "0.79",
+        "roc_auc": "0.61",
+        "model": "Random Forest",
+        "key_points": [
+          "Built reproducible ML pipeline with preprocessing and grid search.",
+          "Applied SMOTE to handle class imbalance in CHD prediction.",
+          "Deployed an interactive Streamlit app for live model inference."
+        ]
+      }
     },
     {
-      "title": "Amazon Reviews Classification",
-      "period": "Apr 2025 \u2013 Jun 2025",
-      "desc": "NLP pipeline for large-scale sentiment analysis.",
-      "github": "https://github.com/dangtna1/amazon-reviews-classification",
-      "tech": [
-        "NLTK",
-        "scikit-learn",
-        "Python"
-      ]
-    }
+      "title": "Human Action Recognition",
+      "period": "Jun 2025 – Sep 2025",
+      "desc": "Developed a dual-stream model for multi-view human action recognition using fusion strategies, improving benchmark accuracy by 7%.",
+      "github": "https://github.com/dangtna1/THUMOS-14_TAD",
+      "tech": ["PyTorch", "Python", "3D CNN", "Action Transformer"],
+      "media": "HAR.png"
+    },
+    // {
+    //   "title": "Amazon Reviews Classification",
+    //   "period": "Apr 2025 – Jun 2025",
+    //   "desc": "Built a scalable NLP pipeline for sentiment classification on 1M+ Amazon reviews using TF-IDF and logistic regression.",
+    //   "github": "https://github.com/dangtna1/amazon-reviews-classification",
+    //   "tech": ["Python", "NLTK", "scikit-learn"],
+    //   "media": "uol.jpg"
+    // },
   ],
   "experience": [
     {
