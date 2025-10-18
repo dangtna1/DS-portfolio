@@ -75,20 +75,49 @@ export default {
     {
       "role": "Data Scientist",
       "org": "University of Lincoln",
-      "period": "Jul 2025 \u2013 Present",
+      "period": "Jul 2025 – Present",
+      "thumbnail": "uol-dark.png",
+      "link": "https://autotraits.onrender.com/",
       "bullets": [
-        "Built trait data platform (FastAPI + PostgreSQL + Azure).",
-        "Optimised pipelines and reduced costs.",
-        "Presented findings to stakeholders."
+        "Engineered a scalable trait data platform (FastAPI, PostgreSQL, Azure) enabling real-time analytics and collaboration across research teams.",
+        "Optimised data pipelines, reducing query time by 75% and cloud costs by 30%.",
+        "Integrated semantic annotations that improved plant trait classification accuracy and system interpretability."
       ]
     },
     {
       "role": "Research Data Analyst",
       "org": "University of Lincoln",
-      "period": "Feb 2025 \u2013 Jul 2025",
+      "period": "Feb 2025 – Jul 2025",
+      "thumbnail": "uol-dark.png",
+      "link": "https://www.tenomi.co.uk/",
       "bullets": [
-        "Automated EEG and behaviour pipelines.",
-        "Created interactive Power BI dashboards."
+        "Automated EEG and behavioural data pipelines, supporting real-time signal processing for cognitive studies.",
+        "Analysed behavioural datasets and generated insights that guided therapeutic interventions.",
+        "Developed Power BI dashboards and interactive visualisations to enhance research outcomes."
+      ]
+    },
+    {
+      "role": "Data-Driven Software Engineer",
+      "org": "Synx Games Ltd",
+      "period": "Feb 2025 – Jul 2025",
+      "thumbnail": "synx.png",
+      "link": "https://synx.games/",
+      "bullets": [
+        "Developed gameplay analytics and difficulty-modelling algorithms to enhance retention and engagement.",
+        "Built multiplayer game systems (roblox-ts) optimised for 1,000+ concurrent players.",
+        "Co-led a £500K Roblox Creator Fund proposal, producing data-backed engagement and monetisation metrics."
+      ]
+    },
+    {
+      "role": "Software Engineer",
+      "org": "Codelight",
+      "period": "Jan 2024 – Jul 2024",
+      "thumbnail": "codelightco_logo.jpeg",
+      "link": "https://www.codelight.co/",
+      "bullets": [
+        "Developed high-traffic React.js & Next.js applications, improving load times by 50% and increasing engagement by 2,500+.",
+        "Integrated analytics tracking and automated CI/CD pipelines on Vercel, improving release reliability.",
+        "Collaborated across design and engineering teams to deliver scalable, data-driven web solutions."
       ]
     }
   ],

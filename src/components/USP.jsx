@@ -11,7 +11,7 @@ export default function USP() {
     },
     {
       icon: <FiCheckCircle className="w-8 h-8 text-ocean-200" />,
-      title: 'Ownership & Responsibility',
+      title: 'Ownership',
       desc: 'Takes full accountability from start to finish, ensuring high-quality results.',
     },
     {

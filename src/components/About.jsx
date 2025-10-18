@@ -57,7 +57,7 @@ export default function About() {
 
             <p>
               I thrive on uncovering hidden patterns, transforming complexity into clarity, and driving data-informed
-              outcomes in fast-paced, data-rich industries such as sports, gaming, and entertainment.
+              outcomes in fast-paced, data-rich industries such as <strong>Ecommerce, Banking, and Healthcare</strong>.
             </p>
           </div>
 

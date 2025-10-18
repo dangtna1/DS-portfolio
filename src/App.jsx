@@ -27,12 +27,7 @@ export default function App() {
           </div>
         </section>
 
-        <section id="experience" className="py-20">
-          <div className="container">
-            <h2 className="text-2xl font-semibold text-ocean-300 mb-6">Experience</h2>
-            <Experience />
-          </div>
-        </section>
+        <Experience />
 
         <section id="education" className="py-20">
           <div className="container">
