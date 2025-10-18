@@ -125,14 +125,16 @@ export default {
     {
       "degree": "MSc Data Science (Distinction)",
       "org": "University of Lincoln",
-      "period": "Sep 2024 \u2013 Sep 2025",
-      "notes": "Big Data, Image & Text Processing"
+      "period": "Sep 2024 – Sep 2025",
+      "notes": "Big Data, Data Engineering, Data Mining, Image & Text Processing...",
+      "thumbnail": "uol-dark.png"
     },
     {
-      "degree": "BSc Computer Engineering",
-      "org": "HCMUT",
-      "period": "Oct 2020 \u2013 Mar 2024",
-      "notes": "Algorithms, Databases"
+      "degree": "BSc Computer Engineering (First-Class Honours)",
+      "org": "Ho Chi Minh City University of Technology (HCMUT)",
+      "period": "Oct 2020 – Mar 2024",
+      "notes": "Mathematical Modelling, Database Systems, Operating Systems, Computer Networks...",
+      "thumbnail": "BK.webp"
     }
   ]
 }
