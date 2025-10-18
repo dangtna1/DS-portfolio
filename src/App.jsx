@@ -7,6 +7,7 @@ import Experience from './components/Experience'
 import Footer from './components/Footer'
 import About from './components/About'
 import data from './data'
+import USP from './components/USP'
 
 export default function App() {
   return (
@@ -17,12 +18,7 @@ export default function App() {
 
         <About />
 
-        <section id="skills" className="py-20">
-          <div className="container">
-            <h2 className="text-2xl font-semibold text-ocean-300 mb-6">Skills</h2>
-            <Skills />
-          </div>
-        </section>
+        <USP />
 
         <section id="projects" className="py-20">
           <div className="container">
