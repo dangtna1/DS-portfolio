@@ -46,8 +46,14 @@ export default function Hero() {
             <motion.a whileHover={{ scale: 1.05 }} href={data.linkedin} target="_blank" rel="noreferrer" className="px-4 py-2 border border-slate-700 rounded-lg flex items-center gap-2">
               <FiLinkedin /> LinkedIn
             </motion.a>
-            <motion.a whileHover={{ scale: 1.05 }} href="/Dang-Vu-Data-Scientist.pdf" download className="px-4 py-2 bg-white/5 rounded-lg flex items-center gap-2">
-              <FiDownload /> CV
+            <motion.a
+              whileHover={{ scale: 1.05 }}
+              href="https://leetcode.com/dangtna1/"
+              target="_blank"
+              rel="noreferrer"
+              className="px-4 py-2 bg-white/5 rounded-lg flex items-center gap-2"
+            >
+              🧩 LeetCode
             </motion.a>
           </div>
         </motion.div>
